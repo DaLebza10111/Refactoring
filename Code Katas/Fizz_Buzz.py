@@ -1,7 +1,7 @@
 def fizzBuzz(number):
-    
-    if isinstance(number, float):
-        
+
+    if isinstance(number, int):
+
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz")
             return
@@ -23,4 +23,4 @@ def fizzBuzz(number):
 
 
 if __name__ == "__main__":
-    fizzBuzz(3)
+    fizzBuzz(15)
