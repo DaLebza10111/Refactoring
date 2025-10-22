@@ -1,6 +1,6 @@
 import unittest
 
-from Fizz_Buzz import fizzBuzz
+from FizzBuzz import fizzBuzz
 
 
 class TestFizzBuzz(unittest.TestCase):
@@ -18,7 +18,7 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzBuzz(7), 7)
 
     def test_fizzbuzz_non_integer_input(self):
-        self.assertEqual(fizzBuzz("hello"), "Input is not an integer.")
+        self.assertEqual(fizzBuzz("hello"),"Input is not an integer.")
         self.assertEqual(fizzBuzz(3.5), "Input is not an integer.")
 
 
